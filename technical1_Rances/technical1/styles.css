@@ -1,0 +1,44 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.resume-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left; 
+
+    
+    overflow: auto;
+}
+
+.profile-picture {
+    float: right;
+    margin-left: 10px; 
+}
+
+img {
+    border-radius: 50%;
+}
+
+h1 {
+    color: #333;
+}
+
+button {
+    float: center; 
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
